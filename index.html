@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaxPal - Accounting made simple for small businesses</title>
+    <link rel="icon" href="/assest/img/logo.png" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assest/css/animate.min.css" />
+    <link rel="stylesheet" href="/assest/css/slick-theme.css" />
+    <link rel="stylesheet" href="/assest/css/slick.css" />
+    <link rel="stylesheet" href="/assest/css/cus.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <div id="fixedNav" class="bg-white animate__animated w-full shadow-xl">
+      <div class="container mx-auto py-1 lg:px-28 px-5">
+        <div class="flex justify-between items-center">
+          <!-- logo -->
+          <div class="flex justify-center items-center space-x-3 lg:z-20 mr-10">
+            <img src="/assest/img/logo.png" alt="" />
+            <p class="font-bold text-3xl">
+              Tax<span class="text-blue-500">pal</span>
+            </p>
+          </div>
+          <!-- menu -->
+          <div
+            id="mobile"
+            class="lg:flex fixed lg:static top-0 h-screen lg:h-auto bg-white -left-full w-full z-10 lg:z-0 flex justify-center items-center duration-500"
+          >
+            <div
+              id="menu-close"
+              class="lg:hidden top-0 absolute flex items-center justify-center right-0 border border-blue-500 w-10 h-10 rounded-full mr-4 mt-3"
+            >
+              <i class="fa-solid fa-xmark text-2xl text-blue-500"></i>
+            </div>
+            <ul
+              class="flex lg:space-x-9 lg:flex-row flex-col space-y-10 lg:space-y-0 items-center lg:text-sm text-xl font-bold lg:text-white text-slate-900 dark:text-white"
+            >
+              <a
+                href="#home"
+                class="hover:text-blue-500 text-slate-500 duration-500 transition cursor-pointer active-link"
+              >
+                Features
+              </a>
+              <a
+                href="#why"
+                class="hover:text-blue-500 text-slate-500 transition cursor-pointer"
+              >
+                Testimonials
+              </a>
+              <a
+                href="#fea"
+                class="hover:text-blue-500 text-slate-500 duration-500 transition cursor-pointer"
+              >
+                Pricing
+              </a>
+            </ul>
+            <div class="ml-auto d-no ">
+              <button class="hover:bg-slate-100 text-sm duration-500 transition px-5 bg-white py-2 text-center text-slate-900 rounded-xl font-bold">
+                 Sign in
+              </button>
+              <button class="hover:bg-blue-400 px-5 duration-500 transition bg-blue-500 py-2 text-center text-white rounded-full font-bold">
+                Get started today
+            </button>
+              </div>
+          </div>
+          <!-- dark-mode -->
+          <div class="flex items-center justify-center scale-50 md:scale-100">
+            <div class="lg:hidden mobile-menu">
+              <i class="fa-solid fa-bars text-slate-900 ml-9 text-3xl"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- feacture 1 -->
+    <section class="py-20 lg:px-28 px-5">
+      <div class="container mx-auto flex justify-center items-center">
+        <div class="">
+          <h1
+            class="md:text-7xl text-5xl md:max-w-4xl lg:max-w-4xl font-bold mx-auto text-center dark:text-slate-100"
+          >
+            <span class="block lg:inline text-center">Accounting</span>
+            <span class="relative md:block lg:inline max-w-md mx-auto">
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 418 42"
+                class="absolute top-2/3 left-0 h-[0.58em] w-full fill-blue-300/70"
+                preserveAspectRatio="none"
+              >
+                <path
+                  d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z"
+                ></path>
+              </svg>
+              <span class="text-blue-700 z-10">made simple</span>
+            </span>
+            <span class="">for small business.</span>
+          </h1>
+          <p class="text-center text-base text-slate-500 font-semibold mt-5">
+            Most bookkeeping software is accurate, but hard to use. We make
+            the<br />
+            opposite trade-off, and hope you don’t get audited.
+          </p>
+          <div class="text-center mt-10">
+            <button
+              class="bg-slate-900 w-full lg:w-auto duration-500 transition text-white font-bold px-5 py-3 rounded-full hover:bg-slate-500"
+            >
+              Get 6 months free
+            </button>
+            <button
+              class="bg-white border w-full lg:w-auto mt-5 duration-500 transition lg:mt-0 font-semibold px-7 py-3 rounded-full hover:border-slate-500"
+            >
+              <i class="fa-solid fa-play text-blue-500 mr-5"></i> Watch Video
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto py-16 lg:mt-28 mt-10 lg:px-20 px-5">
+        <div class="">
+          <h1 class="font-bold text-center text-xl lg:text-base">
+            Trusted by these six companies so far
+          </h1>
+          <div class="grid lg:grid-cols-6 grid-cols-2 gap-5 mt-10">
+            <div class="">
+              <img src="/assest/img/transistor.7274e6c3.svg" alt="" />
+            </div>
+            <div class="">
+              <img src="/assest/img/tuple.74eb0ae0.svg" alt="" />
+            </div>
+            <div class="">
+              <img src="/assest/img/statickit.d7937794.svg" alt="" />
+            </div>
+            <div class="">
+              <img src="/assest/img/mirage.18d2ec4e.svg" alt="" />
+            </div>
+            <div class="">
+              <img src="/assest/img/laravel.7deed17e.svg" alt="" />
+            </div>
+            <div class="">
+              <img src="/assest/img/statamic.6da5ebfb.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- feacture 2 -->
+    <section
+      id="features"
+      class="relative pt-28 pb-28 lg:pb-64 bg-blue-600 overflow-hidden px-4 md:px-7 active-link"
+    >
+      <img
+        class="absolute"
+        src="/assest/img/background-features.5f7a9ac9.jpg"
+        alt=""
+      />
+      <div class="max-w-7xl mx-auto relative">
+        <h1
+          class="text-slate-100 text-4xl lg:text-5xl text-center font-bold mx-auto"
+        >
+          Everything you need to run your books.
+        </h1>
+        <h3
+          class="text-slate-200 text-center text-lg lg:text-sm mt-5 font-semibold mx-auto"
+        >
+          Well everything you need if you aren’t that picky about minor details
+          like tax compliance.
+        </h3>
+
+        <div
+          class="block md:grid-cols-1 lg:grid lg:grid-cols-2 mt-24 lg:mt-64 max-h-[90vh] justify-center items-center lg:bg-transparent"
+        >
+          <div
+            class="flex lg:flex-col items-end justify-center gap-x-2 lg-x-gap-0"
+          >
+            <div
+              id="btnOne"
+              class="duration-150 cursor-pointer hover:bg-white/5 hover:ring-2 px-2 py-1 md:p-3 lg:p-5 bg-white/10 lg:rounded-l-2xl lg:rounded-r-none rounded-full lg:pr-10"
+            >
+              <h1 class="text-slate-200 text-sm md:text-xl">Payroll</h1>
+              <h2 class="text-slate-200 mt-5 hidden lg:block max-w-lg">
+                Keep track of everyone salaries and where or not they haven't
+                been paid. Direct deposit not supported.
+              </h2>
+            </div>
+            <div
+              id="btnTwo"
+              class="duration-150 cursor-pointer hover:bg-white/5 hover:ring-2 px-2 py-1 md:p-3 lg:p-5 lg:rounded-l-2xl lg:rounded-r-none rounded-full lg:pr-10"
+            >
+              <h1 class="text-slate-200 text-sm md:text-xl">
+                <span class="hidden md:inline">Cliam</span>Expenses
+              </h1>
+              <h2 class="text-slate-200 mt-5 hidden lg:block max-w-lg">
+                All of your receipt organized into one place as long as you don'
+                mind hiding data by hard
+              </h2>
+            </div>
+            <div
+              id="btnThree"
+              class="duration-150 cursor-pointer hover:bg-white/5 hover:ring-2 px-2 py-1 md:p-3 lg:p-5 lg:rounded-l-2xl lg:rounded-r-none rounded-full lg:pr-10"
+            >
+              <h1 class="text-slate-200 text-sm md:text-xl">
+                <span class="hidden md:inline">VAT</span> Handling
+              </h1>
+              <h2 class="text-slate-200 mt-5 hidden lg:block max-w-lg">
+                We only sell our software to companies who don't deal with VAT a
+                all, technically we do all the VAT stuff we need.
+              </h2>
+            </div>
+            <div
+              id="btnFour"
+              class="duration-150 cursor-pointer hover:bg-white/5 hover:ring-2 px-2 py-1 md:p-3 lg:p-5 lg:rounded-l-2xl lg:rounded-r-none rounded-full lg:pr-10"
+            >
+              <h1 class="text-slate-200 text-sm md:text-xl">Reporting</h1>
+              <h2 class="text-slate-200 mt-5 hidden lg:block max-w-lg">
+                Easily your data inti a Excel spreadsheet where you can do
+                whatever the hell you want width it.
+              </h2>
+            </div>
+          </div>
+          <!-- Input -->
+          <div class="lg:hidden block" id="inputText"></div>
+
+          <div
+            id="imgContainer"
+            class="lg:absolute md:translate-x-0 lg:translate-x-1/2 md:flex md:justify-center lg:block w-full mt-10 lg:mt-0"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Simplify section -->
+    <section class="py-24 lg:px-28 px-5">
+      <div class="container mx-auto text-center">
+        <div class="mt-10">
+          <h1 class="text-4xl font-bold">Simplify everyday business tasks.</h1>
+          <p class="mt-5 font-semibold text-slate-700">
+            Because you’d probably be a little confused if we suggested you
+            complicate <br />
+            your everyday business tasks instead.
+          </p>
+        </div>
+        <div class="my-16 grid lg:grid-cols-3 grid-cols-1 space-y-10 lg:space-y-0 lg:gap-10">
+          <!-- card one -->
+          <div
+            class="text-start hover:border-blue-700 cursor-pointer shadow-sm border duration-75 p-5 rounded-2xl"
+          >
+            <div
+              class="bg-blue-700 w-10 h-10 flex justify-center items-center rounded-lg"
+            >
+              <i class="fa-regular fa-comment-dots text-white"></i>
+            </div>
+            <p class="mt-3 text-blue-700 font-semibold">Reporting</p>
+            <h1 class="mt-3 font-bold text-lg">
+              Stay on top of things with always up-to-date reporting feactures.
+            </h1>
+            <p class="mt-3 font-semibold text-sm text-slate-700">
+              We talked about reporting in the section above but we needed three
+              items here, so mentioning it one more time for posterity.
+            </p>
+          </div>
+
+          <!-- card two -->
+          <div
+            class="text-start hover:border-blue-700 cursor-pointer shadow-sm border duration-75 p-5 rounded-2xl"
+          >
+            <div
+              class="bg-blue-700 w-10 h-10 flex justify-center items-center rounded-lg"
+            >
+              <i class="fa-solid fa-bars text-white"></i>
+            </div>
+            <p class="mt-3 text-blue-700 font-semibold">Inventory</p>
+            <h1 class="mt-3 font-bold text-lg">
+              Never lose track of what’s in stock with accurate inventory
+              tracking.
+            </h1>
+            <p class="mt-3 font-semibold text-sm text-slate-700">
+              We don’t offer this as part of our software but that statement is
+              inarguably true. Accurate inventory tracking would help you for
+              sure.
+            </p>
+          </div>
+
+          <!-- card three -->
+          <div
+            class="text-start hover:border-blue-700 cursor-pointer shadow-sm border duration-75 p-5 rounded-2xl"
+          >
+            <div
+              class="bg-blue-700 w-10 h-10 flex justify-center items-center rounded-lg"
+            >
+              <i class="fa-solid fa-user text-white"></i>
+            </div>
+            <p class="mt-3 text-blue-700 font-semibold">Contacts</p>
+            <h1 class="mt-3 font-bold text-lg">
+              Organize all of your contacts, service providers, and invoices in
+              one place.
+            </h1>
+            <p class="mt-3 font-semibold text-sm text-slate-700">
+              This also isn’t actually a feature, it’s just some friendly
+              advice. We definitely recommend that you do this, you’ll feel
+              really organized and professional.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mx-auto bg-slate-200 lg:p-16 p-2 rounded-2xl">
+        <div class="responsive">
+          <div>
+            <img
+              src="/assest/img/apple/profit-loss.png"
+              alt=""
+              class="w-full rounded-xl"
+            />
+          </div>
+          <div>
+            <img
+              src="/assest/img/apple/inventory.png"
+              alt=""
+              class="w-full rounded-xl"
+            />
+          </div>
+          <div>
+            <img
+              src="/assest/img/apple/contacts.png"
+              alt=""
+              class="w-full rounded-xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- fea section -->
+    <section class="bg-img py-20 h-96">
+      <div class="container mx-auto lg:px-28 px-5">
+        <div class="mt-20 text-center">
+          <h1 class="text-4xl text-white font-bold">Get started today</h1>
+          <p class="mt-6 text-white font-semibold">
+            It’s time to take control of your books. Buy our software so you<br />
+            can feel like you’re doing something productive.
+          </p>
+          <button
+            class="mt-10 w-full lg:w-auto bg-white px-5 py-3 rounded-full font-bold hover:bg-slate-300 transition duration-500"
+          >
+            Get 6 months free
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- testmonial -->
+    <section class="bg-slate-100 py-20">
+      <div class="container mx-auto lg:px-28">
+        <div class="mt-20 text-center">
+          <h1 class="text-4xl font-bold">Loved by businesses worldwide.</h1>
+          <p class="mt-6 font-semibold text-slate-700">
+            Our software is so simple that people can’t help but fall in love
+            with it. Simplicity <br />
+            is easy when you just skip tons of mission-critical features.
+          </p>
+        </div>
+      </div>
+
+      <div class="container mx-auto lg:px-28 mt-28 px-5">
+        <div class="grid lg:grid-cols-3 grid-cols-1 lg:gap-10">
+          <!-- card one and two -->
+          <div class="space-y-10">
+            <div
+              class="p-5 shadow-2xl rounded-2xl bg-white hover:shadow-slate-900 transition duration-500 cursor-pointer"
+            >
+              <p class="font-semibold text-base">
+                TaxPal is so easy to use I can’t help but wonder if it’s really
+                doing the things the government expects me to do.
+              </p>
+              <hr class="mt-5 border" />
+              <div class="mt-5 flex justify-between items-center">
+                <div class="">
+                  <h1 class="font-bold">Sheryl Berge</h1>
+                  <p class="font-semibold text-slate-500 text-sm">
+                    CEO at Lynch LLC
+                  </p>
+                </div>
+                <img
+                  src="/assest/img/apple/avatar-1.png"
+                  alt=""
+                  class="w-16 h-16 rounded-full"
+                />
+              </div>
+            </div>
+            <div
+              class="p-5 shadow-2xl rounded-2xl bg-white hover:shadow-slate-900 transition duration-500 cursor-pointer"
+            >
+              <p class="font-semibold text-base">
+                I’m trying to get a hold of someone in support, I’m in a lot of
+                trouble right now and they are saying it has something to do
+                with my books. Please get back to me right away.
+              </p>
+              <hr class="mt-5 border" />
+              <div class="mt-5 flex justify-between items-center">
+                <div class="">
+                  <h1 class="font-bold">Amy Hahn</h1>
+                  <p class="font-semibold text-slate-500 text-sm">
+                    Director at Velocity Industries
+                  </p>
+                </div>
+                <img
+                  src="/assest/img/apple/avatar-4.png"
+                  alt=""
+                  class="w-16 h-16 rounded-full"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- card three and four -->
+          <div class="space-y-10 mt-10 lg:mt-0">
+            <div
+              class="p-5 shadow-2xl rounded-2xl bg-white hover:shadow-slate-900 transition duration-500 cursor-pointer"
+            >
+              <p class="font-semibold text-base">
+                The best part about TaxPal is every time I pay my employees, my
+                bank balance doesn’t go down like it used to. Looking forward to
+                spending this extra cash when I figure out why my card is being
+                declined.
+              </p>
+              <hr class="mt-5 border" />
+              <div class="mt-5 flex justify-between items-center">
+                <div class="">
+                  <h1 class="font-bold">Leland Kiehn</h1>
+                  <p class="font-semibold text-slate-500 text-sm">
+                    Founder of Kiehn and Sons
+                  </p>
+                </div>
+                <img
+                  src="/assest/img/apple/avatar-5.png"
+                  alt=""
+                  class="w-16 h-16 rounded-full"
+                />
+              </div>
+            </div>
+            <div
+              class="p-5 shadow-2xl rounded-2xl bg-white hover:shadow-slate-900 transition duration-500 cursor-pointer"
+            >
+              <p class="font-semibold text-base">
+                There are so many things I had to do with my old software that I
+                just don’t do at all with TaxPal. Suspicious but I can’t say I
+                don’t love it.
+              </p>
+              <hr class="mt-5 border" />
+              <div class="mt-5 flex justify-between items-center">
+                <div class="">
+                  <h1 class="font-bold">Erin Powlowski</h1>
+                  <p class="font-semibold text-slate-500 text-sm">
+                    CEO at Armstrong Inc
+                  </p>
+                </div>
+                <img
+                  src="/assest/img/apple/avatar-2.png"
+                  alt=""
+                  class="w-16 h-16 rounded-full"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- card four and five -->
+          <div class="space-y-10 mt-10 lg:mt-0">
+            <div
+              class="p-5 shadow-2xl rounded-2xl bg-white hover:shadow-slate-900 transition duration-500 cursor-pointer"
+            >
+              <p class="font-semibold text-base">
+                I used to have to remit tax to the EU and with TaxPal I somehow
+                don’t have to do that anymore. Nervous to travel there now
+                though.
+              </p>
+              <hr class="mt-5 border" />
+              <div class="mt-5 flex justify-between items-center">
+                <div class="">
+                  <h1 class="font-bold">Peter Renolds</h1>
+                  <p class="font-semibold text-slate-500 text-sm">
+                    Founder of West Inc
+                  </p>
+                </div>
+                <img
+                  src="/assest/img/apple/avatar-3.png"
+                  alt=""
+                  class="w-16 h-16 rounded-full"
+                />
+              </div>
+            </div>
+            <div
+              class="p-5 shadow-2xl rounded-2xl bg-white hover:shadow-slate-900 transition duration-500 cursor-pointer"
+            >
+              <p class="font-semibold text-base">
+                This is the fourth email I’ve sent to your support team. I am
+                literally being held in jail for tax fraud. Please answer your
+                damn emails, this is important.
+              </p>
+              <hr class="mt-5 border" />
+              <div class="mt-5 flex justify-between items-center">
+                <div class="">
+                  <h1 class="font-bold">Amy Hahn</h1>
+                  <p class="font-semibold text-slate-500 text-sm">
+                    Director at Velocity Industries
+                  </p>
+                </div>
+                <img
+                  src="/assest/img/apple/avatar-4.png"
+                  alt=""
+                  class="w-16 h-16 rounded-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing -->
+    <section class="bg-slate-900 py-20">
+      <div class="container mx-auto lg:px-28 px-5">
+        <div class="text-center">
+          <h1
+            class="text-4xl font-bold md:text-5xl text-slate-100 text-center max-w-2xl lg:max-w-3xl mx-auto"
+          >
+            <span class="relative">
+              <span class="z-10 text-blue-500">Simple pricing,</span>
+              <span class="z-0">
+                <svg
+                  aria-hidden="true"
+                  viewBox="0 0 281 40"
+                  class="absolute top-1/2 left-0 h-[1em] w-full fill-blue-400"
+                  preserveAspectRatio="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M240.172 22.994c-8.007 1.246-15.477 2.23-31.26 4.114-18.506 2.21-26.323 2.977-34.487 3.386-2.971.149-3.727.324-6.566 1.523-15.124 6.388-43.775 9.404-69.425 7.31-26.207-2.14-50.986-7.103-78-15.624C10.912 20.7.988 16.143.734 14.657c-.066-.381.043-.344 1.324.456 10.423 6.506 49.649 16.322 77.8 19.468 23.708 2.65 38.249 2.95 55.821 1.156 9.407-.962 24.451-3.773 25.101-4.692.074-.104.053-.155-.058-.135-1.062.195-13.863-.271-18.848-.687-16.681-1.389-28.722-4.345-38.142-9.364-15.294-8.15-7.298-19.232 14.802-20.514 16.095-.934 32.793 1.517 47.423 6.96 13.524 5.033 17.942 12.326 11.463 18.922l-.859.874.697-.006c2.681-.026 15.304-1.302 29.208-2.953 25.845-3.07 35.659-4.519 54.027-7.978 9.863-1.858 11.021-2.048 13.055-2.145a61.901 61.901 0 0 0 4.506-.417c1.891-.259 2.151-.267 1.543-.047-.402.145-2.33.913-4.285 1.707-4.635 1.882-5.202 2.07-8.736 2.903-3.414.805-19.773 3.797-26.404 4.829Zm40.321-9.93c.1-.066.231-.085.29-.041.059.043-.024.096-.183.119-.177.024-.219-.007-.107-.079ZM172.299 26.22c9.364-6.058 5.161-12.039-12.304-17.51-11.656-3.653-23.145-5.47-35.243-5.576-22.552-.198-33.577 7.462-21.321 14.814 12.012 7.205 32.994 10.557 61.531 9.831 4.563-.116 5.372-.288 7.337-1.559Z"
+                  ></path>
+                </svg>
+              </span>
+            </span>
+            <span>for everyone.</span>
+          </h1>
+          <p class="mt-10 text-slate-400 font-semibold text-xl">
+            It doesn’t matter what size your business is, our software won’t
+            work well for you.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 mt-28 gap-10">
+          <div
+            class="bg-transparent p-5 rounded-2xl shadow-lg shadow-blue-500 hover:shadow-blue-300 cursor-pointer transition duration-500"
+          >
+            <h1 class="text-4xl font-bold text-white">$9</h1>
+            <h3 class="mt-6 font-semibold text-white text-xl">Starter</h3>
+            <p class="mt-3 font-semibold text-slate-400">
+              Good for anyone who is self-employed and just getting started.
+            </p>
+            <button
+              class="text-white text-center font-semibold w-full my-5 border py-2 rounded-full duration-500 transition border-blue-700"
+            >
+              Get started
+            </button>
+            <div class="space-y-5 mt-10">
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-500"
+                ></i>
+                <p class="text-slate-300 font-semibold text-sm">
+                  Send 10 quotes and invoices
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-500"
+                ></i>
+                <p class="text-slate-300 font-semibold text-sm">
+                  Connect up to 2 bank accounts
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-500"
+                ></i>
+                <p class="text-slate-300 font-semibold text-sm">
+                  Track up to 15 expenses per month
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-500"
+                ></i>
+                <p class="text-slate-300 font-semibold text-sm">
+                  Manual payroll support
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-500"
+                ></i>
+                <p class="text-slate-300 font-semibold text-sm">
+                  Export up to 3 reports
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-blue-700 p-5 rounded-2xl hover:shadow-lg hover:shadow-blue-500 cursor-pointer transition duration-500"
+          >
+            <h1 class="text-4xl font-bold text-white">$15</h1>
+            <h3 class="mt-6 font-semibold text-white text-xl">
+              Small business
+            </h3>
+            <p class="mt-3 font-semibold text-slate-100">
+              Perfect for small / medium sized businesses.
+            </p>
+            <button
+              class="text-slate-900 bg-white hover:bg-slate-300 text-center w-full my-5 border py-2 font-semibold rounded-full duration-500 transition"
+            >
+              Get started
+            </button>
+            <div class="space-y-5 mt-10">
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-100"
+                ></i>
+                <p class="text-slate-100 font-semibold text-sm">
+                  Send 25 quotes and invoices
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-100"
+                ></i>
+                <p class="text-slate-100 font-semibold text-sm">
+                  Connect up to 5 bank accounts
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-100"
+                ></i>
+                <p class="text-slate-100 font-semibold text-sm">
+                  Track up to 50 expenses per month
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-100"
+                ></i>
+                <p class="text-slate-100 font-semibold text-sm">
+                  Automated payroll support
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-100"
+                ></i>
+                <p class="text-slate-100 font-semibold text-sm">
+                  Export up to 12 reports
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-100"
+                ></i>
+                <p class="text-slate-100 font-semibold text-sm">
+                  Bulk reconcile transactions
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-100"
+                ></i>
+                <p class="text-slate-100 font-semibold text-sm">
+                  Track in multiple currencies
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-transparent p-5 rounded-2xl shadow-lg shadow-blue-500 hover:shadow-blue-300 cursor-pointer transition duration-500"
+          >
+            <h1 class="text-4xl font-bold text-white">$39</h1>
+            <h3 class="mt-6 font-semibold text-white text-xl">Enterprise</h3>
+            <p class="mt-3 font-semibold text-slate-400">
+              For even the biggest enterprise companies.
+            </p>
+            <button
+              class="text-white text-center font-semibold w-full my-5 border py-2 rounded-full duration-500 transition border-blue-700"
+            >
+              Get started
+            </button>
+            <div class="space-y-5 mt-10">
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-500"
+                ></i>
+                <p class="text-slate-300 font-semibold text-sm">
+                  Send unlimited quotes and invoices
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-500"
+                ></i>
+                <p class="text-slate-300 font-semibold text-sm">
+                  Connect up to 15 bank accounts
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-500"
+                ></i>
+                <p class="text-slate-300 font-semibold text-sm">
+                  Track up to 200 expenses per month
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-500"
+                ></i>
+                <p class="text-slate-300 font-semibold text-sm">
+                  Automated payroll support
+                </p>
+              </div>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-regular fa-circle-check text-lg text-slate-500"
+                ></i>
+                <p class="text-slate-300 font-semibold text-sm">
+                  Export up to 25 reports, including TPS
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- the last section -->
+    <section class="bg-img1">
+      <div class="container mx-auto lg:px-28 px-5 py-20">
+        <div class="text-start">
+          <h1 class="text-slate-900 text-4xl font-bold">
+            Frequently asked questions
+          </h1>
+          <p class="text-xl font-semibold mt-7">
+            If you can’t find what you’re looking for, email our support team
+            and if you’re<br />
+            lucky someone will get back to you.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-20 space-y-10 lg:space-y-0">
+          <div class="space-y-10">
+            <div class="">
+              <h1 class="font-bold text-lg">Does TaxPal handle VAT?</h1>
+              <p class="text-sm mt-3 font-semibold">
+                Well no, but if you move your company offshore you can probably
+                ignore it.
+              </p>
+            </div>
+            <div class="">
+              <h1 class="font-bold text-lg">
+                Can I pay for my subscription via purchase order?
+              </h1>
+              <p class="text-sm mt-3 font-semibold">
+                Absolutely, we are happy to take your money in all forms.
+              </p>
+            </div>
+            <div class="">
+              <h1 class="font-bold text-lg">
+                How do I apply for a job at TaxPal?
+              </h1>
+              <p class="text-sm mt-3 font-semibold">
+                We only hire our customers, so subscribe for a minimum of 6
+                months and then let’s talk.
+              </p>
+            </div>
+          </div>
+          <div class="space-y-10">
+            <div class="">
+              <h1 class="font-bold text-lg">
+                What was that testimonial about tax fraud all about?
+              </h1>
+              <p class="text-sm mt-3 font-semibold">
+                TaxPal is just a software application, ultimately your books are
+                your responsibility.
+              </p>
+            </div>
+            <div class="">
+              <h1 class="font-bold text-lg">
+                TaxPal sounds horrible but why do I still feel compelled to
+                purchase?
+              </h1>
+              <p class="text-sm mt-3 font-semibold">
+                This is the power of excellent visual design. You just can’t
+                resist it, no matter how poorly it actually functions.
+              </p>
+            </div>
+            <div class="">
+              <h1 class="font-bold text-lg">
+                I found other companies called TaxPal, are you sure you can use
+                this name?
+              </h1>
+              <p class="text-sm mt-3 font-semibold">
+                Honestly not sure at all. We haven’t actually incorporated or
+                anything, we just thought it sounded cool and made this website.
+              </p>
+            </div>
+          </div>
+          <div class="space-y-10">
+            <div class="">
+              <h1 class="font-bold text-lg">How do you generate reports?</h1>
+              <p class="text-sm mt-3 font-semibold">
+                You just tell us what data you need a report for, and we get our
+                kids to create beautiful charts for you using only the finest
+                crayons.
+              </p>
+            </div>
+            <div class="">
+              <h1 class="font-bold text-lg">
+                Can we expect more inventory features?
+              </h1>
+              <p class="text-sm mt-3 font-semibold">
+                In life it’s really better to never expect anything at all.
+              </p>
+            </div>
+            <div class="">
+              <h1 class="font-bold text-lg">
+                I lost my password, how do I get into my account?
+              </h1>
+              <p class="text-sm mt-3 font-semibold">
+                Send us an email and we will send you a copy of our latest
+                password spreadsheet so you can find your information.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="bg-slate-50 py-20">
+      <div class="container mx-auto lg:px-28 px-5">
+        <div class="mt-28">
+          <div class="flex justify-center items-center space-x-3">
+            <img src="/assest/img/logo.png" alt="" />
+            <p class="font-bold text-3xl">
+              Tax<span class="text-blue-500">pal</span>
+            </p>
+          </div>
+          <div class="text-center mt-5">
+            <ul
+              class="flex justify-center items-center space-x-10 font-bold text-slate-500"
+            >
+              <li
+                class="hover:text-blue-500 duration-500 transition cursor-pointer"
+              >
+                Features
+              </li>
+              <li
+                class="hover:text-blue-500 duration-500 transition cursor-pointer"
+              >
+                Testimonials
+              </li>
+              <li
+                class="hover:text-blue-500 duration-500 transition cursor-pointer"
+              >
+                Pricing
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="text-slate-600 border mt-10 lg:mt-20" />
+        <div class="mt-10 flex flex-col lg:flex-row items-center justify-between">
+          <p class="font-semibold text-slate-400">
+            Copyright © 2023 TaxPal. All rights reserved.
+          </p>
+          <div class="space-x-3 mt-5 lg:mt-0">
+            <i
+              class="fa-brands fa-twitter text-slate-400 hover:text-slate-900 cursor-pointer duration-500 transition text-xl"
+            ></i>
+            <i
+              class="fa-brands fa-github text-slate-400 hover:text-slate-900 cursor-pointer duration-500 transition text-xl"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/assest/js/jquery-3.6.0.min.js"></script>
+    <script src="/assest/js/jquery.waypoints.min.js"></script>
+    <script src="/assest/js/scrollreveal.min.js"></script>
+    <script src="/assest/js/slick.min.js"></script>
+    <script src="/assest/js/cus.js"></script>
+    <script>
+      //slick
+      $(".responsive").slick({
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        duration: 1000,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+
+      //mobile menu
+      const mobileMenu = document.querySelector(".mobile-menu");
+      const mobile = document.querySelector("#mobile");
+      const mobileClose = document.querySelector("#menu-close");
+      mobileMenu.addEventListener("click", () => {
+        mobile.style.left = "0";
+      });
+
+      mobileClose.addEventListener("click", () => {
+        mobile.style.left = "-100%";
+      });
+    </script>
+  </body>
+</html>
